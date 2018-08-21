@@ -1,53 +1,31 @@
 
+ 
+![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/pic12F675.JPG)
+
 Overview
 --------------------------------------------
-* Name: 
-* Title : 
-* Description: 
-* Main Author
+* Name: pic_12F675_projects
+* Title : Projects for Pic 12F675 Microcontroller
+* Description: Projects for a Pic 12F675 Microcontroller. 
+In C and Assembly.
+* Author: Gavin Lyons 
 
 Table of contents
 ---------------------------
 
   * [Overview](#overview)
   * [Table of contents](#table-of-contents)
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Files](#files)
-  * [Dependencies](#dependencies)
-  * [Features](#features)
-  * [Return codes](#return-codes)
-  * [See Also](#see-also)
+  * [Project List](#project-list)
   * [Communication](#communication)
   * [History](#history)
   * [Copyright](#copyright)
 
-Installation
------------------------------------------------
 
-
-Usage
--------------------------------------------
-
-
-Files
+Project List
 -----------------------------------------
 
-
-Dependencies
--------------------------------------
-
-
-Features
-----------------------
-
-
-Return codes
----------------------
-
-
-See Also
------------
+1. Blink LED C
+2. 
 
 
 Communication
