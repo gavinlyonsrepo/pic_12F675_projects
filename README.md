@@ -6,8 +6,8 @@ Overview
 --------------------------------------------
 * Name: pic_12F675_projects
 * Title : Projects for Pic 12F675 Microcontroller
-* Description: Projects for a Pic 12F675 Microcontroller. 
-In C and Assembly.
+* Description: A set of Projects for a Pic 12F675 Microcontroller. 
+in C and Assembly.
 * Author: Gavin Lyons 
 
 Table of contents
@@ -24,9 +24,14 @@ Table of contents
 Project List
 -----------------------------------------
 
-1. Blink LED C
-2. 
+Each Project has a short readme, schematic and code file
+in the project subfolder.
 
+
+1. Blink LED in C code.
+2. Blink LED in assembly code.
+3. ...
+4. ...
 
 Communication
 -----------

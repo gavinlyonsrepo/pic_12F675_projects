@@ -5,8 +5,6 @@
  * Compiler: xc8 
  * Created on 20 August 2018, 20:28
  */
-// PIC12F675 Configuration Bit Settings
-// 'C' source line config statements
 
 #include <xc.h>
 
@@ -20,7 +18,7 @@
 // #pragma config statements should precede project file includes.
 // Use project enums instead of #define for ON and OFF.
 
-// CONFIG
+// CONFIG  PIC12F675 Configuration Bit Settings
 #pragma config FOSC = INTRCIO   // Oscillator Selection bits (INTOSC oscillator: I/O function on GP4/OSC2/CLKOUT pin, I/O function on GP5/OSC1/CLKIN)
 #pragma config WDTE = OFF       // Watchdog Timer Enable bit (WDT disabled)
 #pragma config PWRTE = OFF      // Power-Up Timer Enable bit (PWRT disabled)
