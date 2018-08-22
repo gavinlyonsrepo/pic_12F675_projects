@@ -17,6 +17,6 @@ Features
 
 In this folder the source code in c can be found in file blink_c_4
 
-![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/images.jpg)
+![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/blink.jpg)
 
 

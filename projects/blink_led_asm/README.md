@@ -18,6 +18,6 @@ Features
 In this folder the source code in assembly can be found in file blink_5.asm
 
 
-![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/images.jpg)
+![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/blink.jpg)
 
 
