@@ -1,9 +1,9 @@
-/* 
- * File:   blink_c_4.c
+/*
+ * File:   pushbutton.c
  * Author: gavin
  * IDE: MPLAB X v4.2 
  * Compiler: xc8 
- * Created on 20 August 2018, 20:28
+ * Created on 23 August 2018, 18:59
  */
 
 #include <xc.h>
@@ -27,19 +27,33 @@
 #pragma config CP = OFF         // Code Protection bit (Program Memory code protection is disabled)
 #pragma config CPD = OFF        // Data Code Protection bit (Data memory code protection is disabled)
 
+
 void main()
-{
-    GPIO4=0x00;                 // make all GPIO port outputs low
-    TRISIO=0x00;                // TRISIO direction ALL pins  output
+{  
+    GPIO=0x00;             // set all pins low
+    TRISIO=0x04;            // set as output except bit 2 GP2=i/p
     ADCON0=0x00;                // Internal ADC OFF
-    ANSEL=0x00;                 // All Analog selections pins are assigned as digital I/O
-    while(1)
-    {
-        GPIO4=1;                      // Make GPIO4 port high
-        __delay_ms(500); 
-        GPIO4=0;                     // Make GPIO4 port low
-        __delay_ms(500);
-    }
+    ANSEL=0x00;                  // All Analog selections pins are assigned as digital I/O
+       do
+      {
+        if(GPIO2 == 0) //If Switch is pressed
+        {
+          __delay_ms(50); //Provides required delay
+          if(GPIO2 == 0) //If Switch is still pressed
+          {
+              if (GPIO4 == 0)
+              {
+                GPIO4=1; //LED on 
+                __delay_ms(500);
+              }
+              else{
+                GPIO4=  0; //LED OFF
+                __delay_ms(500);
+              }
+          }
+        }
+      }while(1);
 
 }
+
 
