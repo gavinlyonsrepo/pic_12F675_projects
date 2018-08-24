@@ -5,8 +5,8 @@
 Overview
 --------------------------------------------
 * Name: pic_12F675_projects
-* Title : Projects for Pic 12F675 Microcontroller
-* Description: A set of Projects for a Pic 12F675 Microcontroller. 
+* Title : Example code and projects for Pic 12F675 Microcontroller
+* Description: A set of Project and example code  for a Pic 12F675 Microcontroller. 
 in C and Assembly.
 * Author: Gavin Lyons 
 
@@ -24,14 +24,16 @@ Table of contents
 Project List
 -----------------------------------------
 
-Each Project has a short readme, schematic and code file
-in the project subfolder.
+Each Project/example has a short readme, schematic and code file
+in the relevant subfolder.
 
 
 1. Blink LED in C code.
 2. Blink LED in assembly code.
-3. ...
-4. ...
+3. Toggle LED via a push Button in c code.
+4. Fade in and out LED with Pulse width modulation(PWM) in c code. 
+5. TODO
+6. ...
 
 Communication
 -----------
