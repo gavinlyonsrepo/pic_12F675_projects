@@ -33,7 +33,9 @@ in the relevant subfolder.
 3. Toggle LED via a push Button in c code.
 4. Fade in and out LED with Pulse width modulation(PWM) using timer in c code. 
 5. Fade in and out LED with PWM based on Analog input from Pot
-6. ...
+6. Emergency vehicle lights simulation via push button hardware interupt.
+7. TODO
+8. ...
 
 Communication
 -----------
