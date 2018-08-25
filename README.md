@@ -31,8 +31,8 @@ in the relevant subfolder.
 1. Blink LED in C code.
 2. Blink LED in assembly code.
 3. Toggle LED via a push Button in c code.
-4. Fade in and out LED with Pulse width modulation(PWM) in c code. 
-5. TODO
+4. Fade in and out LED with Pulse width modulation(PWM) using timer in c code. 
+5. Fade in and out LED with PWM based on Analog input from Pot
 6. ...
 
 Communication

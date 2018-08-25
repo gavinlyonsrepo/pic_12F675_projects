@@ -9,6 +9,21 @@
  * Url: https://github.com/gavinlyonsrepo/pic_12F675_projects
  */
 
+/*
+ 
+	   PIC TIMER0 Calculator
+ 
+Clock Source in Mhz                   4 Mhz
+Fosc                                  4000000.0 Hz
+Fosc / 4                              1000000.0 Hz
+Time Period                           1e-06 sec
+Prescaler                             32
+Timer0 Interrupt Period               0.008192 sec
+Period of Frequency Input To Timer0   3.2e-05 sec
+Period of Time for each Timer0 Count  0.008192 sec
+(1000000/256) * 32 ~= 8mS				
+*/
+
 #include <xc.h>
 
 // Config word
@@ -24,20 +39,8 @@ __CONFIG(FOSC_INTRCIO & WDTE_OFF & PWRTE_ON & MCLRE_OFF & BOREN_OFF & CP_OFF & C
 #define usdelay  10
 // Define PWM variable, It can have a value 
 // from 0 (0% duty cycle) to 255 (100% duty cycle)
-unsigned char PWM = 0;
+unsigned char PWM = 255;
 
-/*
-	   PIC TIMER0 Calculator
- 
-Clock Source in Mhz                   4 Mhz
-Fosc                                  4000000.0 Hz
-Fosc / 4                              1000000.0 Hz
-Time Period                           1e-06 sec
-Prescaler                             32
-Timer0 Interrupt Period               0.008192 sec
-Period of Frequency Input To Timer0   3.2e-05 sec
-Period of Time for each Timer0 Count  0.008192 sec 
-*/
 
 void interrupt ISR(void)
 {
@@ -62,9 +65,9 @@ void interrupt ISR(void)
 void InitPWM(void)
 {
 	// Use timer0 for making PWM
-	//make prescaler 1:2
-	OPTION_REG &= 0xC0;     // Intialise timer0
-	
+	OPTION_REG &= 0xCC;     // Intialise timer0
+	//INTCON     = 0b10100000;     // Global Interrupt Enabled and TMR0 Overflow Interrupt Enabled
+	TMR0       = 0         ;     // Preload timer register
 	T0IE = 1;				// Enable Timer0 interrupt
 	GIE = 1;				// Enable global interrupts
 }
@@ -78,7 +81,7 @@ void main()
 	VRCON  = 0x00;	     // Shut off the Voltage Reference
 	TRISIO = 0x00;       // All output
 	GPIO   = 0x00;       // Make all pins 0
-	
+	WPU    = 0;              // Disable all weak pull up
 	InitPWM();			 // Initialize PWM
 
 	// PWM=0 means 0% duty cycle and 
