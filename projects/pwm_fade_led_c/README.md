@@ -26,14 +26,14 @@ In the timer init  function, OPTION_REG is initialized to make timer0 prescalar 
 
 PIC TIMER0 Calculator
  
-Clock Source in Mhz                   4 Mhz
-Fosc                                  4000000.0 Hz
-Fosc / 4                              1000000.0 Hz
-Time Period                           1e-06 sec
-Prescaler                             32
-Timer0 Interrupt Period               0.008192 sec
-Period of Frequency Input To Timer0   3.2e-05 sec
-Period of Time for each Timer0 Count  0.008192 sec
+* Clock Source in Mhz                   4 Mhz
+* Fosc                                  4000000.0 Hz
+* Fosc / 4                              1000000.0 Hz
+* Time Period                           1e-06 sec
+* Prescaler                             32
+* Timer0 Interrupt Period               0.008192 sec
+* Period of Frequency Input To Timer0   3.2e-05 sec
+* Period of Time for each Timer0 Count  0.008192 sec
 
 (1000000/256)*32 = 8.192 millisecond.
 
