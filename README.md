@@ -5,7 +5,6 @@
 Overview
 --------------------------------------------
 * Name: pic_12F675_projects
-* Title : Example code and projects for Pic 12F675 Microcontroller
 * Description: A set of Project and example code for a Pic 12F675 Microcontroller. 
 in C and Assembly.
 * Author: Gavin Lyons 
@@ -23,7 +22,7 @@ Table of contents
 
 Project List
 -----------------------------------------
-A set of Project and example code for a 8-bin 8-bit Pic 12F675 Microcontroller. 
+A set of Projects and example code for a 8-bin 8-bit Pic 12F675 Microcontroller,
 in C and Assembly.
 Each Project/example has a short readme, schematic and code file
 in the relevant subfolder.
@@ -31,11 +30,11 @@ in the relevant subfolder.
 
 1. Blink LED in C code.
 2. Blink LED in assembly code.
-3. Toggle LED via a push Button in c code.
-4. Fade in and out LED with Pulse width modulation(PWM) using timer in c code. 
-5. Fade in and out LED with PWM based on Analog input from Pot
-6. Emergency vehicle lights simulation via push button hardware interupt.
-7. LED display in "Knight rider" fashion. 
+3. Toggle LED via a push Button in C code.
+4. Fade in and out LED with Pulse width modulation(PWM) using timer in C code. 
+5. Fade in and out LED with PWM based on Analog input from Pot in C code.
+6. Emergency vehicle lights simulation via push button hardware interrupt in C code
+7. LED chaser display in C code.
 8. TODO
 9. ... 
 

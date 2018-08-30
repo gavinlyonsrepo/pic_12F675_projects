@@ -28,7 +28,7 @@ GPIO function
 * blue LED1  GP4.
 * blue LED2  GP5.
 
-
+![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/emergencylights.png)
 
 
 

@@ -29,5 +29,5 @@ GPIO function
 
 The PIC's GP3 pin is solely an input port so cannot be used.
 
-
+![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/knightrider.png)
 
