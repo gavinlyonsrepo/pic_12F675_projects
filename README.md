@@ -1,6 +1,6 @@
 
  
-![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/pic12F675.JPG)
+![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/pic12F675.jpg)
 
 Overview
 --------------------------------------------
@@ -33,9 +33,9 @@ in the relevant subfolder.
 3. Toggle LED via a push Button in C code.
 4. Fade in and out LED with Pulse width modulation(PWM) using timer in C code. 
 5. Fade in and out LED with PWM based on Analog input from Pot in C code.
-6. Emergency vehicle lights simulation via push button hardware interrupt in C code
+6. Emergency vehicle lights simulation via push button hardware interrupt in C code.
 7. LED chaser display in C code.
-8. TODO
+8. Electronic LED die in C code.
 9. ... 
 
 Communication
