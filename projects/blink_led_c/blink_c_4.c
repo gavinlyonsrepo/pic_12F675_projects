@@ -26,15 +26,15 @@
 
 void main()
 {
-    GPIO4=0x00;                 // make all GPIO port outputs low
+    GPIO=0x00;                 // make all GPIO port outputs low
     TRISIO=0x00;                // TRISIO direction ALL pins  output
     ADCON0=0x00;                // Internal ADC OFF
     ANSEL=0x00;                 // All Analog selections pins are assigned as digital I/O
     while(1)
     {
-        GPIO4=1;                      // Make GPIO4 port high
+        GPIO0=1;                      // Make GPIO0 port high
         __delay_ms(500); 
-        GPIO4=0;                     // Make GPIO4 port low
+        GPIO0=0;                     // Make GPIO0 port low
         __delay_ms(500);
     }
 

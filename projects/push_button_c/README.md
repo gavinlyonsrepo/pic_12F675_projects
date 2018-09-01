@@ -2,8 +2,8 @@
 Overview
 --------------------------------------------
 * Name: push button example  in c
-* Description: A program to toogle an LED attached to GPIO4
-by pressing a pushbutton attached to GPIO2 written in c
+* Description: A program to toggle an LED attached to GPIO4
+by pressing a push button attached to GPIO2 written in c
 * Author: Gavin Lyons.
 
 Table of contents
@@ -16,7 +16,9 @@ Table of contents
 Features
 ----------------------
 
-In this folder the source code in c can be found in file blink_c_4
+In this folder the source code in c can be found in file pushbutton_c
+
+Push button is attached as so with pull up resistor.
 
 ![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/pushbutton.jpg)
 

@@ -5,8 +5,8 @@
 Overview
 --------------------------------------------
 * Name: pic_12F675_projects
-* Description: A set of Project and example code for a Pic 12F675 Microcontroller. 
-in C and Assembly.
+* Description: A set of projects and example code for a Pic 12F675 Microcontroller,
+written in C and Assembly.
 * Author: Gavin Lyons 
 
 Table of contents
@@ -22,7 +22,7 @@ Table of contents
 
 Project List
 -----------------------------------------
-A set of Projects and example code for the Pic 12F675  8-pin 8-bit Microcontroller,
+A set of projects and example code for the Pic 12F675  8-pin 8-bit Microcontroller,
 in C and Assembly.
 Each Project/example has a short readme, schematic and code file
 in the relevant subfolder.
