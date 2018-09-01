@@ -22,7 +22,6 @@ Numbers 1-6 are displayed on LED matrix.
 
 GPIO function
 
-/* pins layout labels*/
 1. LED_A  GP0
 2. LED_B  GP1
 3. LED_C  GP2
@@ -36,10 +35,10 @@ GPIO function
 |3 LED_A + LED_B | 0x03 b00000011 |
 |4 LED_B + LED_C | 0x06  b00000110 |
 |5 LED_A + LED_B + LED_C   | 0x07 b00000111 |
-|6 Six|LED_A + LED_B + LED_C + LED_D |  0x17 b00010111 |
+|6 LED_A + LED_B + LED_C + LED_D |  0x17 b00010111 |
  
 
-![PIC layout](https|//github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/dice.jpg)
+![PIC layout](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/dice.jpg)
 
 
-![PIC schematic](https|//github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/dice2.png)
+![PIC schematic](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/dice2.png)

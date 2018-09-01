@@ -22,7 +22,7 @@ Table of contents
 
 Project List
 -----------------------------------------
-A set of Projects and example code for a 8-bin 8-bit Pic 12F675 Microcontroller,
+A set of Projects and example code for the Pic 12F675  8-pin 8-bit Microcontroller,
 in C and Assembly.
 Each Project/example has a short readme, schematic and code file
 in the relevant subfolder.
@@ -36,7 +36,9 @@ in the relevant subfolder.
 6. Emergency vehicle lights simulation via push button hardware interrupt in C code.
 7. LED chaser display in C code.
 8. Electronic LED die in C code.
-9. ... 
+9. LED 8-bit binary counter with 74HC595 shift register in C code .
+10. LED 8-bit binary counter with 74HC595 shift register in assembly code.
+11. .... 
 
 Communication
 -----------
