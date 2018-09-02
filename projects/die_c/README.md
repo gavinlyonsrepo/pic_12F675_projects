@@ -40,5 +40,4 @@ GPIO function
 |6 | LED_A + LED_B + LED_C + LED_D |  0x17 b00010111 |
  
 
-
 ![PIC schematic](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/dice2.png)

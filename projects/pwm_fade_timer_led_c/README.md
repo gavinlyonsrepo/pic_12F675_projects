@@ -35,7 +35,7 @@ PIC TIMER0 Calculator
 * Period of Frequency Input To Timer0   3.2e-05 sec
 * Period of Time for each Timer0 Count  0.008192 sec
 
-(1000000/256)*32 = 8.192 millisecond.
+1/((1000000/256)/32)  ~= 8.192 millisecond.
 
 Whenever timer0 expires, then an interrupt is generated which executes the ISR function. In this function, GP4 pin is toggled every time and timer0 interrupt flag is cleared.
 

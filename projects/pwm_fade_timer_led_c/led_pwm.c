@@ -21,7 +21,7 @@ Prescaler                             32
 Timer0 Interrupt Period               0.008192 sec
 Period of Frequency Input To Timer0   3.2e-05 sec
 Period of Time for each Timer0 Count  0.008192 sec
-(1000000/256) * 32 ~= 8mS				
+1/((1000000/256)/32) ~= 8mS				
 */
 
 #include <xc.h>

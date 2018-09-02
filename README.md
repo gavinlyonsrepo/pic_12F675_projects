@@ -22,7 +22,7 @@ Table of contents
 
 Project List
 -----------------------------------------
-A set of projects and example code for the Pic 12F675  8-pin 8-bit Microcontroller,
+A set of projects and example code for the Pic 12F675 8-pin 8-bit Microcontroller,
 in C and Assembly.
 Each Project/example has a short readme, schematic and code file
 in the relevant subfolder.
@@ -38,7 +38,9 @@ in the relevant subfolder.
 8. Electronic LED die in C code.
 9. LED 8-bit binary counter with 74HC595 shift register in C code .
 10. LED 8-bit binary counter with 74HC595 shift register in assembly code.
-11. .... 
+11. 10 minute egg timer, time displayed by a single seven segment LED module driven by 
+a 74HC595 shift register. Time selected by pot. C code.
+12. ...
 
 Communication
 -----------
