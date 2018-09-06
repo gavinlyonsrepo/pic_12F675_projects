@@ -1,5 +1,5 @@
 
- 
+
 ![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/pic12F675.jpg)
 
 Overview
@@ -7,7 +7,7 @@ Overview
 * Name: pic_12F675_projects
 * Description: A set of projects and example code for a Pic 12F675 Microcontroller,
 written in C and Assembly.
-* Author: Gavin Lyons 
+* Author: Gavin Lyons
 
 Table of contents
 ---------------------------
@@ -27,24 +27,25 @@ in C and Assembly.
 Each Project/example has a short readme, schematic and code file
 in the relevant subfolder.
 
+| Num | Desc | Link |
+| --- | --- | --- |
+| 1  | Blink LED in C code  | [URL](projects/blink_led_c) |
+| 2  | Blink LED in assembly code | [URL](projects/blink_led_asm)
+| 3  | Toggle LED via a push Button in C code | [URL](projects/push_button_c) |
+| 4  | Fade LED with PWM using timer in C code | [URL](projects/pwm_fade_timer_led_c) |
+| 5  | Fade LED with PWM based on Analog input C code | [URL](projects/pwm_pot_led_c) |
+| 6  | Vehicle lights sim via push button HW interrupt in C code |[URL](projects/emergency_lights_c) |
+| 7  | LED chaser display in C code. | [URL](projects/knight_rider_c) |
+| 8  | Electronic LED die in C code. | [URL](projects/die_c) |
+| 9  | LED 8-bit binary counter with 74HC595 shift register in C code | [URL](projects/74HC595_c) |
+| 10  | LED 8-bit binary counter with 74HC595 in assembly code | [URL](projects/74HC595_asm) |
+| 11  | 10 minute timer, 1 7 seg LED module with a 74HC595 in C code. | [URL](projects/egg_timer_c) |
+| 12 | TODO  |  TODO |
 
-1. Blink LED in C code.
-2. Blink LED in assembly code.
-3. Toggle LED via a push Button in C code.
-4. Fade in and out LED with Pulse width modulation(PWM) using timer in C code. 
-5. Fade in and out LED with PWM based on Analog input from Pot in C code.
-6. Emergency vehicle lights simulation via push button hardware interrupt in C code.
-7. LED chaser display in C code.
-8. Electronic LED die in C code.
-9. LED 8-bit binary counter with 74HC595 shift register in C code .
-10. LED 8-bit binary counter with 74HC595 shift register in assembly code.
-11. 10 minute egg timer, time displayed by a single seven segment LED module driven by 
-a 74HC595 shift register. Time selected by pot. C code.
-12. ...
 
 Communication
 -----------
-If you should find a bug or you have any other query, 
+If you should find a bug or you have any other query,
 please send a report.
 Pull requests, suggestions for improvements
 and new features welcome.
@@ -56,11 +57,10 @@ History
 
 * See changelog.md in documentation section for version control history
 
- 
 Copyright
 ---------
-Copyright (C) 2018 Gavin Lyons 
+Copyright (C) 2018 Gavin Lyons
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public license published by
-the Free Software Foundation, see LICENSE.md in documentation section 
+the Free Software Foundation, see LICENSE.md in documentation section
 for more details
