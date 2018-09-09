@@ -24,8 +24,8 @@ Project List
 -----------------------------------------
 A set of projects and example code for the Pic 12F675 8-pin 8-bit Microcontroller,
 in C and Assembly.
-Each Project/example has a short readme, schematic and code file
-in the relevant subfolder.
+Each Project/example has a short Readme.md , eagle schematic image and source code file
+in the relevant sub-folder.
 
 | Num | Desc | Link |
 | --- | --- | --- |
@@ -39,18 +39,17 @@ in the relevant subfolder.
 | 8  | Electronic LED die in C code. | [URL](projects/die_c) |
 | 9  | LED 8-bit binary counter with 74HC595 shift register in C code | [URL](projects/74HC595_c) |
 | 10  | LED 8-bit binary counter with 74HC595 in assembly code | [URL](projects/74HC595_asm) |
-| 11  | 10 minute timer, 1 7 seg LED module with a 74HC595 in C code. | [URL](projects/egg_timer_c) |
-| 12 | TODO  |  TODO |
-
+| 11  | 10 minute timer, 1*7 seg LED module with a 74HC595 in C code. | [URL](projects/egg_timer_c) |
+| 12 | RGB diode in C code |  [URL](projects/rgb_c) |
+| 13 | DHT11 sensor display in C code  |  [URL](projects/dht11) |
+| 13 | TODO |  .. |
 
 Communication
 -----------
-If you should find a bug or you have any other query,
-please send a report.
-Pull requests, suggestions for improvements
+
+Bug reports, pull requests, suggestions for improvements
 and new features welcome.
-* Contact: Upstream repo at github site below or glyons66@hotmail.com
-* Upstream repository: https://github.com/gavinlyonsrepo/pic_12F675_projects
+* Contact: Upstream repo at github or glyons66@hotmail.com
 
 History
 ------------------
