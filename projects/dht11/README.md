@@ -24,7 +24,7 @@ single seven segment LED module driven by a 74HC595 shift register. Written in C
 The information is displayed in a scroll like fashion thru the single digit display.
 with a second between each display. 
 
-Program flow
+**Program flow**
 
 1. start
 2. display b (Begin)
@@ -39,7 +39,7 @@ Program flow
 11. Display second digit of humidity reading i.e 8 for 38 %
 12. GOTO to 4
 
-Error codes
+**Error codes**
 
 1. E = Communications Error. No response to the PICs request signal from sensor.
 2. - = Communications Failure. Sensor responded to Start signal but failed 
@@ -66,7 +66,7 @@ GPIO function on PIC, 3 lines to 74HC595
 5. DHT11 sensor line. GP4 
 6. n/c
 
-Connections from seven segment single module to shift register pins.
+**Connections from seven segment single module to shift register pins.**
 
 1. A = pin 7 QH
 2. B = pin 6 QG
@@ -78,9 +78,11 @@ Connections from seven segment single module to shift register pins.
 8. Dot n/c
 
 For more info on pinlayout of seven segment display,  see here.
+
 https://en.wikipedia.org/wiki/Seven-segment_display
 
 For more info on DHT11 sensor see datasheet here.
+
 https://components101.com/sites/default/files/component_datasheet/DHT11-Temperature-Sensor.pdf
 
 ![schematic](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/dht11.png)
