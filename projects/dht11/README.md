@@ -41,8 +41,8 @@ with a second between each display.
 
 **Error codes**
 
-1. E = Communications Error. No response to the PICs request signal from sensor.
-2. - = Communications Failure. Sensor responded to Start signal but failed 
+1. E = Comnmunications Error. No response to the PICs request signal from sensor.
+2. Dash = Communications Failure. Sensor responded to Start signal but failed 
 to communicate data with PIC correctly.
 3. C = Checksum Error. Received all data from sensor but it failed checksum. 
 
