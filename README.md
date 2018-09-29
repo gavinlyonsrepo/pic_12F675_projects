@@ -25,24 +25,26 @@ Project List
 A set of projects and example code for the Pic 12F675 8-pin 8-bit Microcontroller,
 in C and Assembly.
 Each Project/example has a short Readme.md , eagle schematic image and source code file
-in the relevant sub-folder.
+in the relevant sub-folder. All projects in C code unless stated that they are written in 
+Assembly.
 
 | Num | Desc | Link |
 | --- | --- | --- |
-| 1  | Blink LED in C code  | [URL](projects/blink_led_c) |
+| 1  | Blink LED  | [URL](projects/blink_led_c) |
 | 2  | Blink LED in assembly code | [URL](projects/blink_led_asm)
-| 3  | Toggle LED via a push Button in C code | [URL](projects/push_button_c) |
-| 4  | Fade LED with PWM using timer in C code | [URL](projects/pwm_fade_timer_led_c) |
-| 5  | Fade LED with PWM based on Analog input C code | [URL](projects/pwm_pot_led_c) |
-| 6  | Vehicle lights sim via push button HW interrupt in C code |[URL](projects/emergency_lights_c) |
-| 7  | LED chaser display in C code. | [URL](projects/knight_rider_c) |
-| 8  | Electronic LED die in C code. | [URL](projects/die_c) |
-| 9  | LED 8-bit binary counter with 74HC595 shift register in C code | [URL](projects/74HC595_c) |
+| 3  | Toggle LED via a push Button | [URL](projects/push_button_c) |
+| 4  | Fade LED with PWM using timer| [URL](projects/pwm_fade_timer_led_c) |
+| 5  | Fade LED with PWM based on Analog input | [URL](projects/pwm_pot_led_c) |
+| 6  | Vehicle lights sim via push button HW interrupt |[URL](projects/emergency_lights_c) |
+| 7  | LED chaser display  | [URL](projects/knight_rider_c) |
+| 8  | Electronic LED die | [URL](projects/die_c) |
+| 9  | LED 8-bit binary counter with 74HC595 shift register  | [URL](projects/74HC595_c) |
 | 10  | LED 8-bit binary counter with 74HC595 in assembly code | [URL](projects/74HC595_asm) |
-| 11  | 10 minute timer, 1*7 seg LED module with a 74HC595 in C code. | [URL](projects/egg_timer_c) |
-| 12 | RGB diode in C code |  [URL](projects/rgb_c) |
-| 13 | DHT11 sensor display in C code  |  [URL](projects/dht11) |
-| 14 | TODO |  .. |
+| 11  | PIR Alarm system | [URL](projects/PIR_alarm.c) |
+| 12 | RGB diode  |  [URL](projects/rgb_c) |
+| 13  | 10 minute timer, 1*7 seg LED module with a 74HC595 | [URL](projects/egg_timer_c) |
+| 14 | DHT11 sensor display  |  [URL](projects/dht11) |
+| 15 | .... |  .... |
 
 Communication
 -----------
