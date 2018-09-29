@@ -43,7 +43,9 @@ A PIC12F675 micro-controller continuously monitors the output (through GP5)
 from the PIR sensor module. When the motion is sensed, the PIR output voltage is used 
 to drive the base of a 2N2222 NPN transistor.
 
-The PIC then turns on the relay (SRD-05VDC-SL-C) by GP1 going high. A "Keyes SRy1" relay module can  be used for the relay circuit. This output will remain High, as long as the motion 
+The PIC then turns on the relay (SRD-05VDC-SL-C) by GP1 going high. A "Keyes SRy1" relay module can  be used for the relay circuit. The Relay has a second LED(LED2) in its circuit 
+which indicates its on.
+This output will remain High, as long as the motion 
 exists, and this active condition is indicated by status LED being on. 
 
 **Program flow**
@@ -60,7 +62,8 @@ exists, and this active condition is indicated by status LED being on.
 2. RELAY circuit signal input  GP1
 3. PIR signal output GP5
 
-**Status LED modes **
+
+**Status LED modes**
 
 1. Start init delay blinks on/off every 500mS 
 2. Standby State on for 80mS every 5 seconds
