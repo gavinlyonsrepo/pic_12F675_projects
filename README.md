@@ -40,11 +40,12 @@ Assembly.
 | 8  | Electronic LED die | [URL](projects/die_c) |
 | 9  | LED 8-bit binary counter with 74HC595 shift register  | [URL](projects/74HC595_c) |
 | 10  | LED 8-bit binary counter with 74HC595 in assembly code | [URL](projects/74HC595_asm) |
-| 11  | PIR Alarm system | [URL](projects/PIR_alarm) |
-| 12 | RGB diode  |  [URL](projects/rgb_c) |
-| 13  | 10 minute timer, 1*7 seg LED module with a 74HC595 | [URL](projects/egg_timer_c) |
-| 14 | DHT11 sensor display  |  [URL](projects/dht11) |
-| 15 | .... |  .... |
+| 11  | PIR sensor alarm system | [URL](projects/PIR_alarm) |
+| 12  | Fire sensor alarm system | [URL](projects/fire_alarm) |
+| 14 | RGB diode  |  [URL](projects/rgb_c) |
+| 15  | 10 minute timer, 1*7 seg LED module with a 74HC595 | [URL](projects/egg_timer_c) |
+| 15 | DHT11 sensor display  |  [URL](projects/dht11) |
+| 16 | .... |  .... |
 
 Communication
 -----------
