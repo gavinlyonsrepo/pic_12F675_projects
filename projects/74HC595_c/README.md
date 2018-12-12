@@ -22,6 +22,12 @@ an 8-bit binary counter from 0 to 256 is outputted to shift register
 and display on array and then looped. thus implementing an 8-bit 
 binary counter with just 3 outputs of PIC. 
 
+A push button is attached to GPIO 3 pin   which is held 
+high by a pull up resistor , when button is pressed  it goes logic low.
+This button is checked by sw on startup if activated it switches are LEDS
+on constantly so unit can be used as a lamp.
+
+
 
 GPIO function on PIC 3 lines to 74HC595
 
