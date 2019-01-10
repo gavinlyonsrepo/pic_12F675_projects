@@ -42,11 +42,11 @@ Assembly.
 | 10  | LED 8-bit binary counter with 74HC595 in assembly code | [URL](projects/74HC595_asm) |
 | 11  | PIR sensor alarm system | [URL](projects/PIR_alarm) |
 | 12  | Fire sensor alarm system | [URL](projects/fire_alarm) |
-| 14 | RGB diode  |  [URL](projects/rgb_c) |
-| 15  | 10 minute timer, 1*7 seg LED module with a 74HC595 | [URL](projects/egg_timer_c() |
+| 13 | RGB diode  |  [URL](projects/rgb_c) |
+| 14  | 10 minute timer, 1*7 seg LED module with a 74HC595 | [URL](projects/egg_timer_c) |
 | 15 |  LED chaser display 2.0, 8 LEDs with a 74HC595 | [URL](projects/knight_rider_two_c) |
 | 16 | DHT11 sensor display  |  [URL](projects/dht11) |
-| 16 | .... |  .... |
+| 17 | .... |  .... |
 
 Communication
 -----------
