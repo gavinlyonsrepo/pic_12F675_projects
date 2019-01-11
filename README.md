@@ -37,15 +37,15 @@ Assembly.
 | 5  | Fade LED with PWM based on Analog input | [URL](projects/pwm_pot_led_c) |
 | 6  | Vehicle lights sim via push button HW interrupt |[URL](projects/emergency_lights_c) |
 | 7  | LED chaser display 1.0, 5 LED's | [URL](projects/knight_rider_c) |
-| 8  | Electronic LED die | [URL](projects/die_c) |
-| 9  | LED 8-bit binary counter with 74HC595 shift register  | [URL](projects/74HC595_c) |
-| 10  | LED 8-bit binary counter with 74HC595 in assembly code | [URL](projects/74HC595_asm) |
-| 11  | PIR sensor alarm system | [URL](projects/PIR_alarm) |
-| 12  | Fire sensor alarm system | [URL](projects/fire_alarm) |
-| 13 | RGB diode  |  [URL](projects/rgb_c) |
-| 14  | 10 minute timer, 1*7 seg LED module with a 74HC595 | [URL](projects/egg_timer_c) |
-| 15 |  LED chaser display 2.0, 8 LEDs with a 74HC595 | [URL](projects/knight_rider_two_c) |
-| 16 | DHT11 sensor display  |  [URL](projects/dht11) |
+| 8 |  LED chaser display 2.0, 8 LEDs  | [URL](projects/knight_rider_two_c) |
+| 9  | Electronic LED die | [URL](projects/die_c) |
+| 10  | 8-bit binary counter with 74HC595 shift register  | [URL](projects/74HC595_c) |
+| 11  | 8-bit binary counter with 74HC595 in assembly code | [URL](projects/74HC595_asm) |
+| 12  | PIR sensor alarm system | [URL](projects/PIR_alarm) |
+| 13  | Fire sensor alarm system | [URL](projects/fire_alarm) |
+| 14 | RGB LED display  |  [URL](projects/rgb_c) |
+| 15  | 10 minute timer, 1*7 seg LED module with a 74HC595 | [URL](projects/egg_timer_c) |
+| 16 | DHT11 sensor display on 1*7 seg LED module  |  [URL](projects/dht11) |
 | 17 | .... |  .... |
 
 Communication

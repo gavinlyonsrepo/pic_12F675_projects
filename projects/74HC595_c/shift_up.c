@@ -1,5 +1,5 @@
 /*
- * File:   shift_c.c
+ * File:   shift_up.c
  * Function: PIC12F675 8-bit binary counter, LED Array and  shift register
  * Author: Gavin Lyons
  * URl: https://github.com/gavinlyonsrepo/pic_12F675_projects

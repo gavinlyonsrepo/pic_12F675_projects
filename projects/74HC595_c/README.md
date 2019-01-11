@@ -15,7 +15,10 @@ Table of contents
 Features
 ----------------------
 
-In this folder the source code in c can be found in 74HC595_C.
+In this folder the source code in c can be found in file shift_up.c
+also there is a second file called shift_down.c which counts down 
+instead of up, this is provided as an alternative.
+
 
 8 LEDS are attached to pins QA-QH of 74HC595. Data in the form of 
 an 8-bit binary counter from 0 to 256 is outputted to shift register
