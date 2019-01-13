@@ -45,10 +45,10 @@ Assembly.
 | 13  | PIR sensor alarm system | [URL](projects/PIR_alarm) |
 | 14  | Fire sensor alarm system | [URL](projects/fire_alarm) |
 | 15  | RGB LED display  |  [URL](projects/rgb_c) |
-| 16  | External clock out | [URL](projects/osc_c) |
-| 17  | 10 minute timer, 1*7 seg LED module with a 74HC595 | [URL](projects/egg_timer_c) |
-| 18  | DHT11 sensor display on 1*7 seg LED module  |  [URL](projects/dht11) |
-| 19  | .... |  .... |
+| 16  | Output the Internal PIC clock | [URL](projects/osc_c) |
+| 17  | Light Dependent resistor Circuit |  [URL](projects/LDR) |
+| 18  | 10 minute timer, 1*7 seg LED module with a 74HC595 | [URL](projects/egg_timer_c) |
+| 19  | DHT11 sensor display on 1*7 seg LED module  |  [URL](projects/dht11) |
 | 20  | .... |  .... |
 
 Communication
