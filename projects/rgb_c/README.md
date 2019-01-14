@@ -16,7 +16,7 @@ Table of contents
 Features
 ----------------------
 
-Source code is in file at this folde rgb.c
+Source code is in file at this folder rgb.c .
 
 PIC12F675,  Cycle thru various RGB modes on a RGB LED attached to GP0-GP1-GP2
 A pot on GP4 provides the delay time between transitions.
@@ -26,6 +26,6 @@ A pot on GP4 provides the delay time between transitions.
 3. GP2 =  BLue LED(RGB pin 3)
 4. GP4 = Analog input via pot signal pin
 
-TODO
 
-* Draw Schematic.
+
+![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/rgb.png)
