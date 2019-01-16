@@ -52,15 +52,15 @@ exists, and this active condition is indicated by status LED being on.
 
 1. start
 2. Wait one minute, sensor stabilisation delay
-3. Monitor PIR and Status LED iin standby 
+3. Monitor PIR and Status LED in standby 
 4. IF PIR alert = turn on Relay and Status LED 
-5. Turn off relay, Status LED and goto 3 when PIR alert ends.
+5. Turn off relay, Status LED and GOTO 3 when PIR alert ends.
 
 **GPIO function PIC12F675 Pin Assignment**
 
 1. Status LED   GP0
-2. RELAY circuit signal input  GP1
-3. PIR signal output GP5
+2. RELAY circuit signal output GP1
+3. PIR signal input GP5
 
 
 **Status LED modes**
