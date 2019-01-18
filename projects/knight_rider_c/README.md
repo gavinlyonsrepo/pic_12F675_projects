@@ -28,7 +28,8 @@ GPIO function
 
 
 The PIC's GP3 pin is solely an input port so cannot be used.
-There is second file called LED_random.c this is a vairent of orginal file in whihc the LEDS
+There is second file called LED_random.c.
+This is a variant of original file in which the LED's
 are illuminated in a random pattern. 
 
 ![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/knightrider.png)
