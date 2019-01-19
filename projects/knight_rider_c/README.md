@@ -28,9 +28,14 @@ GPIO function
 
 
 The PIC's GP3 pin is solely an input port so cannot be used.
+
 There is second file called LED_random.c.
 This is a variant of original file in which the LED's
 are illuminated in a random pattern. 
+
+There is a third file called 5-bit counter. 
+This is a variant of original file in which the LED's
+from a 5-bit repeating counter.
 
 ![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/knightrider.png)
 
