@@ -3,7 +3,8 @@ Overview
 --------------------------------------------
 * Name: knight_rider LED pattern. 
 * Description: A program to display a LED pattern in a knight rider fashion
-With a Pic12F675 and five LEDs.
+With a Pic12F675 and five LEDs. Two alternative programs 5-bit counter and random pattern 
+are also available.
 * Author: Gavin Lyons.
 
 Table of contents
