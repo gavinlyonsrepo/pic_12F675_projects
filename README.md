@@ -36,7 +36,7 @@ Assembly.
 | 5  | Fade LED with PWM based on Analog input | [URL](projects/pwm_pot_led_c) |
 | 6  | Vehicle lights sim via push button HW interrupt |[URL](projects/emergency_lights_c) |
 | 7  | LED array controlled by Analog input | [URL](projects/led_pot_control) |
-| 8  | LED chaser display 1.0, 5 LED's | [URL](projects/knight_rider_c) |
+| 8  | LED display , 3 modes 5 LED's | [URL](projects/knight_rider_c) |
 | 9  |  LED chaser display 2.0, 8 LEDs  | [URL](projects/knight_rider_two_c) |
 | 10  | Electronic LED die | [URL](projects/die_c) |
 | 11  | 8-bit binary counter   | [URL](projects/74HC595_c) |

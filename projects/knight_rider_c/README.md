@@ -2,7 +2,7 @@
 Overview
 --------------------------------------------
 * Name: LED Display
-* Description: A program to display a LED pattern's on a PIC12F675 and five LEDs. 
+* Description: A program to display various LED lighting modes on a PIC12F675 and five LEDs. 
 * Author: Gavin Lyons.
 
 Table of contents
@@ -15,8 +15,8 @@ Table of contents
 Features
 ----------------------
 
-In this folder the source code (written in C) can be found in 4 files 
-Which file has a different function for same circuit and are stand alone.
+In this folder the source code (written in C) can be found in 4 files.  
+Each file has a different function for same circuit and are stand alone.
 
 File Function:
 
@@ -28,8 +28,8 @@ File Function:
 | LED_random.c | random  LED patterns | 
 
 
-led_display.c is the primary file and combines other the otehr 3 files in one.
-It carries out the binary count loop fives times the LED chaser display 10 times
+led_display.c is the primary file and combines other the other 3 files in one.
+It carries out the binary count loop fives times, the LED chaser display 10 times,
 and then displays 15 random patterns to the LED array, and then loops again.
 
 
@@ -42,7 +42,7 @@ GPIO function
 5. LED5  GP5
 
 
-The PIC's GP3 pin is solely an input port so cannot be used.
+Note: The PIC's GP3 pin is solely an input port so cannot be used.
 
 
 ![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/knightrider.png)
