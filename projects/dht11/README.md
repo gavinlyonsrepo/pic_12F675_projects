@@ -47,11 +47,11 @@ to communicate data with PIC correctly.
 3. C = Checksum Error. Received all data from sensor but it failed checksum. 
 
 
-Communication Format with DHT11 can be separated into three stages.
+Communication Format with DHT11 can be separated into four stages.
 
-1. Request
-2. Response
-3. Data Reading 5 bytes.
+1. Request to sensor
+2. Response from sensor
+3. Data Reading 5 bytes  from sensor
 4. Sum the 1st 4 bytes and check if the result is the same as CheckSum(5th byte)
 
 
