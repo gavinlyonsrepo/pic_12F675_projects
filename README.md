@@ -27,28 +27,33 @@ Each Project/example has a short Readme.md , eagle schematic image and source co
 in the relevant sub-folder. All projects in C code unless stated that they are written in 
 Assembly.
 
+**Example Code:**
+
 | Num | Desc | Link |
 | --- | --- | --- |
-| 1  | Blink LED  | [URL](projects/blink_led_c) |
-| 2  | Blink LED in assembly code | [URL](projects/blink_led_asm) |
-| 3  | Toggle LED via a push Button | [URL](projects/push_button_c) |
-| 4  | Fade LED with PWM using timer| [URL](projects/pwm_fade_timer_led_c) |
-| 5  | Fade LED with PWM based on Analog input | [URL](projects/pwm_pot_led_c) |
-| 6  | Vehicle lights sim via push button HW interrupt |[URL](projects/emergency_lights_c) |
-| 7  | LED array controlled by Analog input | [URL](projects/led_pot_control) |
-| 8  | LED display , 3 modes 5 LED's | [URL](projects/knight_rider_c) |
-| 9  |  LED chaser display 2.0, 8 LEDs  | [URL](projects/knight_rider_two_c) |
-| 10  | Electronic LED die | [URL](projects/die_c) |
-| 11  | 8-bit binary counter   | [URL](projects/74HC595_c) |
-| 12  | 8-bit binary counter in assembly code | [URL](projects/74HC595_asm) |
-| 13  | PIR sensor alarm system | [URL](projects/PIR_alarm) |
-| 14  | Fire sensor alarm system | [URL](projects/fire_alarm) |
-| 15  | RGB LED display  |  [URL](projects/rgb_c) |
-| 16  | Output the Internal PIC clock | [URL](projects/osc_c) |
-| 17  | Light Dependent resistor Circuit |  [URL](projects/LDR) |
-| 18  | 10 minute timer, 1*7 segment LED module| [URL](projects/egg_timer_c) |
-| 19  | DHT11 sensor display on 1*7 segment LED module  |  [URL](projects/dht11) |
-| 20  | .... |  .... |
+| 1  | Blink LED  | [URL in C ](projects/blink_led_c) : [URL assembly](projects/blink_led_asm) |
+| 2  | Toggle LED via a push Button | [URL](projects/push_button_c) |
+| 3  | Fade LED with PWM | [URL timer](projects/pwm_fade_timer_led_c) : [URL Analog input](projects/pwm_pot_led_c) |
+| 4  | LED array controlled by Analog input | [URL](projects/led_pot_control) |
+| 5  | RGB LED display  |  [URL](projects/rgb_c) |
+| 6  | Output the Internal PIC clock | [URL](projects/osc_c) |
+| 7  | Light Dependent resistor Circuit |  [URL](projects/LDR) |
+
+
+**Project list:**
+
+| Num | Desc | Link |
+| --- | --- | --- |
+| 1  | Vehicle lights sim via push button HW interrupt |[URL](projects/emergency_lights_c) |
+| 2  | Electronic LED die | [URL](projects/die_c) |
+| 3  | LED display , 5 LEDs | [URL](projects/knight_rider_c) |
+| 4  | LED display , 8 LEDs  | [URL](projects/knight_rider_two_c) |
+| 5  | 8-bit binary counter   | [URL c](projects/74HC595_c) : [URL assembly](projects/74HC595_asm) |
+| 6  | PIR sensor alarm system | [URL](projects/PIR_alarm) |
+| 7  | Fire sensor alarm system | [URL](projects/fire_alarm) |
+| 8  | 10 minute timer, 1*7 segment LED module| [URL](projects/egg_timer_c) |
+| 9  | DHT11 sensor display on 1*7 segment LED module  |  [URL](projects/dht11) |
+| 10  | .... |  .... |
 
 Communication
 -----------
