@@ -18,7 +18,7 @@ Features
 In this folder the source code in c can be found in file dice.c
 
 7 Leds are attached to PIC in the pattern of a die. Based on user input to a push button.
-Numbers 1-6 are displayed on LED matrix.
+Numbers 1-6 are displayed on LED matrix. If button is held in All LEDs are turned on.
 
 GPIO function
 

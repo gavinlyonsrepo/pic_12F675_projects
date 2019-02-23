@@ -21,7 +21,7 @@ Table of contents
 
 Project List
 -----------------------------------------
-A set of projects and example code for the Pic 12F675 8-pin 8-bit Microcontroller,
+A set of projects and example code for the PIC 12F675 8-pin 8-bit Microcontroller,
 in C and Assembly.
 Each Project/example has a short Readme.md , eagle schematic image and source code file
 in the relevant sub-folder. All projects in C code unless stated that they are written in 
@@ -53,15 +53,14 @@ Assembly.
 | 7  | Fire sensor alarm system | [URL](projects/fire_alarm) |
 | 8  | 10 minute timer, 1*7 segment LED module| [URL](projects/egg_timer_c) |
 | 9  | DHT11 sensor display on 1*7 segment LED module  |  [URL](projects/dht11) |
-| 10  | .... |  .... |
+| 10  | LM35 Sensor displayed on LCD 16x02 |  [URL](projects/LCD_LM35) |
 
 Communication
 -----------
 
-Bug reports, pull requests, suggestions for improvements
-and new features welcome.
-* Contact: Upstream repo at github or glyons66@hotmail.com
+Bug reports and pull requests are welcome.
 
+* Contact: Upstream repo at github or glyons66@hotmail.com
 
 Copyright
 ---------

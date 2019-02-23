@@ -4,16 +4,21 @@
  * Author: Gavin Lyons
  * URl: https://github.com/gavinlyonsrepo/pic_12F675_projects
  * Created on 31 August 2018, 13:34
- * IDE: MPLAB X v4.2 
- * Compiler: xc8 v1.45
+ * IDE: MPLAB X v5.05
+ * Compiler: xc8 v2.05
  */
 
-// Complier  xc8 v1.45
 #include <xc.h>
 #include <stdlib.h> // for  rand()
 
-// CONFIG ? CONFIGURATION WORD (ADDRESS: 2007h)
-__CONFIG(FOSC_INTRCIO & WDTE_OFF & PWRTE_OFF & MCLRE_OFF & BOREN_OFF & CP_OFF & CPD_OFF);
+// CONFIG ? CONFIGURATION WORD (ADDRESS: 2007h// CONFIG  PIC12F675 Configuration Bit Settings 
+#pragma config FOSC = INTRCIO   // Oscillator Selection bits (INTOSC oscillator: I/O function on GP4/OSC2/CLKOUT pin, I/O function on GP5/OSC1/CLKIN)
+#pragma config WDTE = OFF       // Watchdog Timer Enable bit (WDT disabled)
+#pragma config PWRTE = OFF      // Power-Up Timer Enable bit (PWRT disabled)
+#pragma config MCLRE = OFF      // MCLR
+#pragma config BOREN = OFF      // Brown-out Detect Enable bit (BOD disabled)
+#pragma config CP = OFF         // Code Protection bit (Program Memory code protection is disabled)
+#pragma config CPD = OFF         // Data Code Protection bit (Data memory code protection is disabled)
 
 /*define clock freq*/
 #ifndef _XTAL_FREQ
@@ -41,14 +46,31 @@ unsigned char led_Array[6] = {0x01,0x02,0x03,0x06,0x07,0x17};
 /* setup function*/
 void setup (void)
 {
-    ADCON0=0x00;         // Internal ADC OFF
-    ANSEL=0x00;          // All Analog selections pins are assigned as digital I/O
+    ADCON0 = 0x00;         // Internal ADC OFF
+    ANSEL = 0x00;          // All Analog selections pins are assigned as digital I/O
     CMCON = 0x07;		 // Shut off the Comparator
     VRCON = 0x00;        // Shut off the Voltage Reference
-    TRISIO=0x20;         // set as output except bit 2 GP5=i/p push button
-    GPIO=0x20;           // set all pins low except GP5
+    TRISIO = 0x20;         // set as output except bit 2 GP5=i/p push button
+    GPIO = 0x20;           // set all pins low except GP5
     OPTION_REG &= 0xCC;  // Intialize timer0 b11001100
     TMR0 = 0 ;           // Preload timer register
+}
+
+/* check if button is pressed on startup, if so 
+  turn on all LEDS */
+void check_pushbutton(void)
+{
+	  if(push_button == 0) //If Switch is pressed
+        {
+          __delay_ms(75); //Provides required delay for de-bounce
+          if(push_button == 0) //If Switch is still pressed
+               {
+                    GPIO = led_Array[5];
+                    while(1){
+                        __nop();
+                    }
+                 }
+         }
 }
 
 /* Generate random number and apply to GPIO ports*/
@@ -68,11 +90,12 @@ void numPick(void)
      __delay_ms(500);
 }
 
-/* main loop*/
+/* main loop */
 void main(void)
 {
     __delay_ms(50);
     setup();
+    check_pushbutton();      //check if button is pressed on start-up
      do
       {
         if(push_button == 0) //If Switch is pressed
