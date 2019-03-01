@@ -48,5 +48,12 @@ https://en.wikipedia.org/wiki/Seven-segment_display
 
 ![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/eggtimer.png)
 
+**Alternative program/design**
 
+Another program is also available battest.c here. The ADC value at GPIO4 is displayed as a
+voltage on the 7-seg digit in a scrolling display, like b01-52E. for 1.52 volts.
+b for begin, E for end and dash for decimal point.
+The schematic is same minus push button and buzzer, the pot is replaced with a 
+AA or AAA battery under load. 
+ 
 
