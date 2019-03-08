@@ -46,6 +46,12 @@ Connections from seven segment single module to shift register pins.
 For more info on pinlayout of seven segment display,  see here.
 https://en.wikipedia.org/wiki/Seven-segment_display
 
+![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/sevenseg.jpg)
+
+
+Schematic
+--------------------
+
 ![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/eggtimer.png)
 
  

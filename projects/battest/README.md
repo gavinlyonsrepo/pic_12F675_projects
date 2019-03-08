@@ -2,7 +2,7 @@
 Overview
 --------------------------------------------
 * Name: Battery tester
-* Description: Battery level of AA/AAA cell under load displayed on a  single seven segment LED module driven by 
+* Description: Battery level of AA/AAA cell under load displayed on a single seven segment LED module driven by 
 a 74HC595 shift register.   
 * Author: Gavin Lyons.
 
@@ -48,11 +48,11 @@ Connections from seven segment single module to shift register pins.
 7. G = pin 1 QB
 
 For more info on pinlayout of seven segment display,  see here.
-![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/sevenseg.jpg)
+https://en.wikipedia.org/wiki/Seven-segment_display
 
+![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/sevenseg.jpg)
 
 Schematic
 --------------------
 
-
-![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/batttest.png)
+![PIC](https://github.com/gavinlyonsrepo/pic_12F675_projects/blob/master/images/battest.png)
