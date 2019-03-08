@@ -52,8 +52,10 @@ Assembly.
 | 6  | PIR sensor alarm system | [URL](projects/PIR_alarm) |
 | 7  | Fire sensor alarm system | [URL](projects/fire_alarm) |
 | 8  | 10 minute timer, 1*7 segment LED module| [URL](projects/egg_timer_c) |
-| 9  | DHT11 sensor display on 1*7 segment LED module  |  [URL](projects/dht11) |
-| 10  | LM35 Sensor displayed on LCD 16x02 |  [URL](projects/LCD_LM35) |
+| 9  | AAA/AA Battery level on 1*7 segment LED module  |  [URL](projects/battest) |
+| 10  | DHT11 sensor display on 1*7 segment LED module  |  [URL](projects/dht11) |
+| 11  | LM35 Sensor displayed on LCD 16x02 |  [URL](projects/LCD_LM35) |
+
 
 Communication
 -----------
