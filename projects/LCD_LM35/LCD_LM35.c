@@ -142,8 +142,10 @@ void shiftout(unsigned char ch)
    RCLK = 0;
    }
 
-//flip the bit RW The control pin R/W determines if the data transfer between the LCD module and 
-//an external microcontroller are actual character data or command/status.
+/* Function Name :LCDToggle
+ *  Used by LCDData() and LCD_Cmd() 
+ * function to toggle enable bit
+*/
 void LCDtoggle(void)
    {
    dataout ^= 0x10;
@@ -152,8 +154,8 @@ void LCDtoggle(void)
    shiftout(dataout);
    }
 
-/* Function Name :Write_LCD_Nibble
- *  Used by LCDData() and LCD_Cmd() 
+/* Function Name :LCD_Nibbles
+ *  Used by LCDData() and LCDCmd() 
  * functions to send LCD data and command as two nibbles.
 */
 void LCDnibbles(unsigned char ch)
@@ -202,7 +204,7 @@ void LCDinit(void)
    __delay_ms(5);
    LCDtoggle();
    __delay_ms(5);
-   LCDcmd(0x28); // 4-bits, 2 lines, 5x7 font
+   LCDcmd(0x28); // 4-bit mode, 2 lines, 5x7 font
    LCDcmd(0xC); // Display ON, No cursors
    LCDcmd(0x6); // Entry mode- Auto-increment, No Display shifting
    LCDcmd(0x1); 
