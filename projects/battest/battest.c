@@ -20,7 +20,7 @@
 #pragma config WDTE = OFF       // Watchdog Timer Enable bit (WDT disabled)
 #pragma config PWRTE = OFF      // Power-Up Timer Enable bit (PWRT disabled)
 #pragma config MCLRE = OFF      // MCLR
-#pragma config BOREN = OFF      // Brown-out Detect Enable bit (BOD disabled)
+#pragma config BOREN = ON     // Brown-out Detect Enable bit (BOD disabled)
 #pragma config CP = OFF         // Code Protection bit (Program Memory code protection is disabled)
 #pragma config CPD = OFF // Data Code Protection bit (Data memory code protection is disabled)
 
@@ -35,7 +35,8 @@
 //seven segment symbols
 #define sym_b 0x7C     // b fgedcba 01111100 
 #define sym_E 0x79     // E fgedcba 01111001 
-#define sym_DASH 0x40  // - fgedcba 00010000
+#define sym_DASH 0x40  // - fgedcba 01000000
+#define sym_BOT_DASH 0x10  // _ fgedcba 00010000
 
 /* ======= Globals========*/
  char data[10] = {0x3F,0x06,0x5B,0x4F,0x66,0x6D,0x7D,0x07,0x7F,0x67};
@@ -75,6 +76,8 @@ void setup (void)
     VRCON = 0x00;        // Shut off the Voltage Reference
     TRISIO = 0x10;       //  Gp4 input rest all output 
     GPIO   = 0x00;           // set all pins low
+     data_display(sym_BOT_DASH);
+    __delay_ms(50);
 }
 
 /* ADCData:
@@ -83,17 +86,17 @@ void setup (void)
  */
 void ADCData(void)
 { 
-     uint8_t  digit4, digit3, digit2 , digit1;
+     uint8_t  digit1, digit2, digit3 , digit4;
     ADC_value = (ADC_value*49)/100;
-    digit1 = (ADC_value/1000)%10;
+    //digit1 = (ADC_value/1000)%10; always zero not needed
     digit2 = (ADC_value/100)%10;
     digit3 = (ADC_value/10)%10;
     digit4 =  ADC_value%10;
     
     data_display(sym_b); // B e for begin
      __delay_ms(1000);
-    data_display(data[digit1]);
-     __delay_ms(1000);
+    //data_display(data[digit1]);   always zero not needed
+    // __delay_ms(1000); always zero not needed
     data_display(data[digit2]);
      __delay_ms(1000);
      data_display(sym_DASH); //dash for decimal point

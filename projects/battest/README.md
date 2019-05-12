@@ -22,11 +22,18 @@ Written in C code(xc8).
 The ADC value at GPIO4 is displayed as a
 voltage on the 7-seg digit in a scrolling display, 
 
-* b01-52E = 01.52 volts.
-
-b for begin, E for end and dash for decimal point.
-The Battery is under load, 100ohms. 
+b for begin, E for end and middle dash for decimal point.
+Bottom dash only is an error code: Unit went thru setup function but hanged up before 
+measurement displayed. The Battery is under load. 
   
+Example calculation:
+
+ADC measurement * (VCC/ADC resolution) = result.
+
+1. 300 measured on ADC
+2. 300 * (5/1024)  = 1.464 volts 
+3. b1-46E on display = 1.46 volts 
+
 
 GPIO function
 
@@ -35,7 +42,7 @@ GPIO function on PIC 3 lines to 74HC595
 1. SER Serial / Data in pin 14   GP0
 2. RCLK / Latch pin 12  GP1
 3. SCLK / storage clock pin 11  GP2
-4. Battery + GP4(AN4)
+4. Battery under test = GP4(AN4)
 
 Connections from seven segment single module to shift register pins.
 

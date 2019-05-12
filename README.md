@@ -41,20 +41,12 @@ Assembly.
 | 8  | 10 minute timer, 1*7 segment LED module| [URL](projects/egg_timer_c) |
 | 9  | AAA/AA Battery level on 1*7 segment LED module  |  [URL](projects/battest) |
 | 10  | DHT11 sensor display on 1*7 segment LED module  |  [URL](projects/dht11) |
-| 11  | LM35 Sensor displayed on LCD 16x02 |  [URL](projects/LCD_LM35) |
+| 11  | LM35 Sensor data displayed on LCD 16x02 HD44780  |  [URL](projects/LCD_LM35) |
 
 
 **Example Code:**
 
-| Num | Desc | Link |
-| --- | --- | --- |
-| 1  | Blink LED  | [URL in C ](projects/blink_led_c) : [URL assembly](projects/blink_led_asm) |
-| 2  | Toggle LED via a push Button | [URL](projects/push_button_c) |
-| 3  | Fade LED with PWM | [URL timer](projects/pwm_fade_timer_led_c) : [URL Analog input](projects/pwm_pot_led_c) |
-| 4  | LED array controlled by Analog input | [URL](projects/led_pot_control) |
-| 5  | RGB LED display  |  [URL](projects/rgb_c) |
-| 6  | Output the Internal PIC clock | [URL](projects/osc_c) |
-| 7  | Light Dependent resistor Circuit |  [URL](projects/LDR) |
+[URL](example_code/README.md)
 
 
 Communication
