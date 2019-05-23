@@ -34,7 +34,7 @@ Assembly.
 | 1  | Vehicle lights sim via push button HW interrupt |[URL](projects/emergency_lights_c) |
 | 2  | Electronic LED die | [URL](projects/die_c) |
 | 3  | LED display , 5 LEDs | [URL](projects/knight_rider_c) |
-| 4  | LED display , 8 LEDs  | [URL c](projects/74HC595_c) |
+| 4  | LED display , 8 LEDs  | [URL](projects/74HC595_c) |
 | 5  | 8-bit binary counter   | [URL assembly](projects/74HC595_asm) |
 | 6  | PIR sensor alarm system | [URL](projects/PIR_alarm) |
 | 7  | Fire sensor alarm system | [URL](projects/fire_alarm) |
