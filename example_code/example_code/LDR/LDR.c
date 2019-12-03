@@ -1,7 +1,7 @@
 
 /*
  * File: LDR.c
- * Function: PIC12F675 8-bit binary counter, LED Array and  shift register
+ * Function: PIC12F675 LDR test code
  * Author: Gavin Lyons
  * URl: https://github.com/gavinlyonsrepo/pic_12F675_projects
  * Created on 13 January 2019, 21:39

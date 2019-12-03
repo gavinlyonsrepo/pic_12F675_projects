@@ -35,13 +35,13 @@ Assembly.
 | 2  | Electronic LED die | [URL](projects/die_c) |
 | 3  | LED display , 5 LEDs | [URL](projects/knight_rider_c) |
 | 4  | LED display , 8 LEDs  | [URL](projects/74HC595_c) |
-| 5  | 8-bit binary counter   | [URL assembly](projects/74HC595_asm) |
-| 6  | PIR sensor alarm system | [URL](projects/PIR_alarm) |
-| 7  | Fire sensor alarm system | [URL](projects/fire_alarm) |
-| 8  | 10 minute timer, 1*7 segment LED module| [URL](projects/egg_timer_c) |
-| 9  | AAA/AA Battery level on 1*7 segment LED module  |  [URL](projects/battest) |
-| 10  | DHT11 sensor display on 1*7 segment LED module  |  [URL](projects/dht11) |
-| 11  | LM35 Sensor data displayed on LCD 16x02 HD44780  |  [URL](projects/LCD_LM35) |
+| 5  | LED display , 8 LEDs + LDR   | [URL assembly](projects/LDR_LED) |
+| 6  | 8-bit binary counter   | [URL assembly](projects/74HC595_asm) |
+| 7  | PIR sensor alarm system | [URL](projects/PIR_alarm) |
+| 8  | Fire sensor alarm system | [URL](projects/fire_alarm) |
+| 9  | 10 minute timer, 1*7 segment LED module| [URL](projects/egg_timer_c) |
+| 10  | AAA/AA Battery level on 1*7 segment LED module  |  [URL](projects/battest) |
+| 11  | DHT11 sensor display on 1*7 segment LED module  |  [URL](projects/dht11) |
 
 
 **Example Code:**
