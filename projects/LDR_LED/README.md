@@ -36,21 +36,21 @@ and then loops again.
 |  KnightRiderMode3 | LED chaser mode ,upper and lower nibble track each other  | 
 |  Flash | LED flash mode, upper and lower nibble flash alternate | 
 
-A push button is attached to GPIO 3 pin  which is held 
+A push button is attached to GP3 pin  which is held 
 high by a pull up resistor , when button is pressed it goes logic low.
 This button is checked by firmware on startup, if pressed it switches all LEDS
 on constantly, so unit can be used as a mini-lamp.
 
-In addition a LDR(light dependent resistor) circuit is attached to GP3 froming a voltage divider it is read by ADC module. If Light is detected The unit goes to sleep mode, If day it initiates the LED display cycle and then checks LDR again. The threshold is at 500 or ~ 2.5 V for 5 volt vcc.
-The LDR was calibrated at: night time was measured at 4V (88kohms) , Day light was 1.2V (6.7kohms).
+In addition a LDR(light dependent resistor) circuit is attached to GP4 forming a voltage divider. It is read by ADC module. If Light is detected the unit goes to sleep mode, If it is dark it initiates the LED display cycle and then checks LDR again  when finished. The threshold is at 500 or ~ 2.5 V for 5 volt vcc.
+The LDR was calibrated at: Night time was measured at 4V (LDR 88kohms) , Day light was 1.2V (LDR 6.7kohms).
 
 When the unit goes to sleep it is woken by the watchdog timer which is set to a prescaler of 128.
-The timer of 18mS * 128 gives a total sleep time of ~ 2.3 seconds. It wakes up checks LDR goes back to sleep.
-
+The timer of 18mS * 128 gives a total sleep time of ~ 2.3 seconds. It wakes up checks LDR goes back to sleep
+which just takes a few mS. So the PIC is mostly asleep during the day ... mostly.
 
 GPIO function on PIC 3 lines to 74HC595
 
-1. SER Serial / Data in pin 14   GP0
+1. SER  / Serial Data  pin 14   GP0
 2. RCLK / Latch pin 12  GP1
 3. SCLK / storage clock pin 11  GP2
 
