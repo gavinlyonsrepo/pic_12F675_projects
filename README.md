@@ -35,7 +35,7 @@ Assembly.
 | 2  | Electronic LED die | [URL](projects/die_c) |
 | 3  | LED display , 5 LEDs | [URL](projects/knight_rider_c) |
 | 4  | LED display , 8 LEDs  | [URL](projects/74HC595_c) |
-| 5  | LED display , 8 LEDs + LDR   | [URL(projects/LDR_LED) |
+| 5  | LED display , 8 LEDs + LDR   | [URL](projects/LDR_LED) |
 | 6  | 8-bit binary counter   | [URL assembly](projects/74HC595_asm) |
 | 7  | PIR sensor alarm system | [URL](projects/PIR_alarm) |
 | 8  | Fire sensor alarm system | [URL](projects/fire_alarm) |
