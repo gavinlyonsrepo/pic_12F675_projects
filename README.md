@@ -5,7 +5,7 @@
 Overview
 --------------------------------------------
 * Name: pic_12F675_projects
-* Description: A set of projects and example code for a Pic 12F675 Microcontroller,
+* Description: A set of projects for a PIC 12F675 Microcontroller,
 written in C and Assembly.
 * Author: Gavin Lyons
 
@@ -42,11 +42,6 @@ Assembly.
 | 9  | 10 minute timer, 1*7 segment LED module| [URL](projects/egg_timer_c) |
 | 10  | AAA/AA Battery level on 1*7 segment LED module  |  [URL](projects/battest) |
 | 11  | DHT11 sensor display on 1*7 segment LED module  |  [URL](projects/dht11) |
-
-
-**Example Code:**
-
-[URL](example_code/README.md)
 
 
 Communication
