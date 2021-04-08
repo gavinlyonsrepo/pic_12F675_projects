@@ -5,7 +5,7 @@ Overview
 * Description: A set of projects for a PIC 12F675 Microcontroller,
 written in C and Assembly.
 * Author: Gavin Lyons
-* Contact: Upstream repo at github or glyons66@hotmail.com
+* Contact: Upstream repo at github 
 * Copyright: Copyright (C) 2018 Gavin Lyons see LICENSE.md in documentation section
 
 Project List
