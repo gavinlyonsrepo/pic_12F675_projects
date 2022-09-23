@@ -1,24 +1,14 @@
-
-Overview
---------------------------------------------
-* Name: pic_12F675_projects
-* Description: A set of projects for a PIC 12F675 Microcontroller,
-written in C and Assembly.
-* Author: Gavin Lyons
-* Contact: Upstream repo at github 
-* Copyright: Copyright (C) 2018 Gavin Lyons see LICENSE.md in documentation section
+[![Website](https://img.shields.io/badge/Website-Link-blue.svg)](https://gavinlyonsrepo.github.io/)  [![Rss](https://img.shields.io/badge/Subscribe-RSS-yellow.svg)](https://gavinlyonsrepo.github.io//feed.xml)  [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/paypalme/whitelight976)
 
 Project List
 -----------------------------------------
 A set of projects and example code for the PIC 12F675 8-pin 8-bit Microcontroller,
 in C and Assembly.
 Each Project/example has a short Readme.md ,  schematic image and source code file
-in the relevant sub-folder. All projects are in C code(xc8) unless stated that they are written in 
+in the relevant sub-folder. All projects are in C code (xc8) unless stated that they are written in 
 Assembly.
 
-**Project list:**
-
-| Num | Desc | Link |
+| Num | Description  | URL Link |
 | --- | --- | --- |
 | 1  | Vehicle lights sim via push button HW interrupt |[URL](projects/emergency_lights_c) |
 | 2  | Electronic LED die | [URL](projects/die_c) |
